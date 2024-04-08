@@ -1,0 +1,48 @@
+/* estilos.css */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff; /* Cambia el color de fondo a un gris claro */
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+ 
+.dropdown-content a {
+    color: black; /* Cambia el color del texto de los enlaces */
+    padding: 16px 24px; /* Aumenta el padding para hacer los enlaces más grandes */
+    text-decoration: none;
+    display: block;
+    font-size: 18px; /* Aumenta el tamaño de la fuente */
+}
+
+ .dropdown-content a:hover {background-color: #f35353fb}
+ 
+/* estilos de los botones */
+#menuButton {
+  background-color: #7e5044; /* Cambia el color de fondo del botón */
+  color: rgb(7, 7, 7); /* Cambia el color del texto del botón */
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+#menuButton:hover, #menuButton:focus {
+  background-color: #b66652; /* Cambia el color de fondo del botón al pasar el cursor o enfocarlo */
+}
+ 
+ @keyframes rotar {
+  from {
+     transform: rotate(0deg);
+  }
+  to {
+     transform: rotate(360deg);
+  }
+ }
+ /*tamaño de las letras del boton */
+button {
+  font-size: 20px; /* Ajusta el tamaño de las letras según sea necesario */
+}
+
